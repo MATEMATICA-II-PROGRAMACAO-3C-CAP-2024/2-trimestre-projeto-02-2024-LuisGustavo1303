@@ -16,7 +16,7 @@
 
 body{
     color: var(--branco);
-    background-color: var(--cor-do-fundo);
+    background: var(--cor-do-fundo);
     font-family: var(--roboto);
 }
 
@@ -95,10 +95,12 @@ body{
 
 .parametro-senha_botao{
     background-color: var(--fundo-texto);
+    color: var(--branco);
+    border: 2px solid var(--borda);
 
 }
 
-@media screen and (min-widht: 768px) {
+@media screen and (min-width: 768px) {
     .parametro-senha_senha{
         flex-direction: row;
     } 
