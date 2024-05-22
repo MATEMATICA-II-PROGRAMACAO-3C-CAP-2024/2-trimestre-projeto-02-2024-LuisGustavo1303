@@ -96,9 +96,8 @@ body{
 }
 
 @media screen and (min-widht: 768px) {
-  
+    .parametro-senha_senha{
+        flex-direction: row;
+    } 
 }
 
-.parametro-senha_senha{
-    flex-direction: row;
-}
