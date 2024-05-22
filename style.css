@@ -16,7 +16,7 @@
 
 body{
     color: var(--branco);
-    background-color: var(--cor-do-fundo);
+    background-color: var(--cor-de-fundo);
     font-family: var(--roboto);
 }
 
