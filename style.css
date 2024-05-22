@@ -91,7 +91,10 @@ body{
 .parametro-senha-botoes{
     display: flex;
     justify-content: center;
+}
 
+.parametro-senha_botao{
+    background-color: var(--fundo-texto);
 
 }
 
