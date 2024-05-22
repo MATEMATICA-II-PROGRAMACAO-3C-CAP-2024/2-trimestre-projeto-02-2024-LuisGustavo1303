@@ -88,6 +88,13 @@ body{
     margin: 0 auto;
 }
 
+.parametro-senha-botoes{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
 @media screen and (min-widht: 768px) {
     .parametro-senha_senha{
         flex-direction: row;
