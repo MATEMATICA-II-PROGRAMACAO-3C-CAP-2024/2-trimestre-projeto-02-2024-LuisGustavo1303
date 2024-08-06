@@ -10,14 +10,26 @@ botoes[0].onclick = diminuiTamanho;
 botoes[1].onclick = aumentaTamanho;
 
 function diminuiTamanho() {
-    tamanhoSenha -= 1;
-    numeroSenha.textContent = tamanhoSenha;
+     if(tamanhoSenha > 1){
+     //tamanhoSenha -= 1;
+     tamanhoSenha--;
+}
+
+     numeroSenha.textContent = tamanhoSenha;
 }
 
 function aumentaTamanho() {
-    tamanhoSenha += 1;
+     if(tamanhoSenha < 20){
+    //tamanhoSenha += 1;
+    tamanhoSenha++;
+}
     numeroSenha.textContent = tamanhoSenha;
 }
 
-console.log(botoes);
+const campoSenha = document.querySelector('#campo-senha');
+
+const letraMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+campoSenha.value = letraMaiusculas;
+
 
